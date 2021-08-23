@@ -1,5 +1,8 @@
 <template>
-  <el-button>一个按钮</el-button>
+<div id="App">
+  <router-view></router-view>
+</div>
+
 </template>
 
 <script>
@@ -8,6 +11,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
